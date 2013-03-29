@@ -17,6 +17,9 @@ public class ElevatorBlock extends Block {
 		
 	}
 	
+	
+	
+	
 	@Override
 	public void registerIcons(IconRegister icon) {
 		blockIcon = icon.registerIcon(Vars.mod_modid+":"+Vars.block_elevatorName);
