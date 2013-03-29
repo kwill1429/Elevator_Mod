@@ -8,5 +8,7 @@ public class DetectorBlock extends Block {
 	public DetectorBlock(int par1) {
 		super(par1, Material.iron);
 	}
+	
+	
 
 }

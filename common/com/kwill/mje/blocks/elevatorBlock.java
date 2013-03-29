@@ -13,7 +13,7 @@ public class ElevatorBlock extends Block {
 	public ElevatorBlock(int par1) {
 		super(par1, Material.iron);
 		this.setUnlocalizedName(Vars.block_elevatorName);
-		this.setCreativeTab(CreativeTabs.tabBlock);
+		this.setCreativeTab(CreativeTabs.tabRedstone);
 		
 	}
 	
