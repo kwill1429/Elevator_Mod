@@ -8,13 +8,13 @@ public class Vars {
 	public static final String mod_version = "Who needs a version";
 	
 	/* Block Variables */
-	public static final String block_elevatorName = "Kwill Elevator Pad";
-	public static final String block_detectorName = "Kwill Elevator Detector";
-	public static final String block_elerailName = "Kwill Elevator Track";
+	public static final String block_elevatorName = "Kwill_Elevator_Pad";
+	public static final String block_detectorName = "Kwill_Elevator_Detector";
+	public static final String block_elerailName = "Kwill_Elevator_Track";
 	
 	/*Item Variables */
-	public static final String item_wrenchName = "Kwill Wrench";
-	public static final String item_sigTestName = "Kwill Signal Tester";
+	public static final String item_wrenchName = "Kwill_Wrench";
+	public static final String item_sigTestName = "Kwill_Signal_Tester";
 	
 	
 	/* Config Variables */
