@@ -15,15 +15,15 @@ public class BlockInit {
 	
 	public static void init() {
 		
-		elevatorBlock = new elevatorBlock(Vars.bid_elevatorBlock);
+		elevatorBlock = new ElevatorBlock(Vars.bid_elevatorBlock);
 		GameRegistry.registerBlock(elevatorBlock, Vars.block_elevatorName);
 		ModLogger.log("Block Loaded: " + Vars.block_elevatorName);
 		
-		detectorBlock = new detectorBlock(Vars.bid_detectorBlock);
+		detectorBlock = new DetectorBlock(Vars.bid_detectorBlock);
 		GameRegistry.registerBlock(detectorBlock, Vars.block_detectorName);
 		ModLogger.log("Block Loaded: " + Vars.block_detectorName);
 		
-		elerailBlock = new elerailBlock(Vars.bid_elerailBlock);
+		elerailBlock = new ElerailBlock(Vars.bid_elerailBlock);
 		GameRegistry.registerBlock(elerailBlock, Vars.block_elerailName);
 		ModLogger.log("Block Loaded: " + Vars.block_elerailName);
 		

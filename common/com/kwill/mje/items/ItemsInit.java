@@ -14,13 +14,13 @@ public class ItemsInit {
 	
 	public static void init() {
 		
-		wrenchItem = new wrenchItem(Vars.iid_wrenchItem);
+		wrenchItem = new WrenchItem(Vars.iid_wrenchItem);
 		GameRegistry.registerItem(wrenchItem, Vars.item_wrenchName);
 		ModLogger.log("Item Loaded: " + Vars.item_wrenchName);
 		
-		sigtestItem = new sigtestItem(Vars.iid_sigtestItem);
+		sigtestItem = new SigTestItem(Vars.iid_sigtestItem);
 		GameRegistry.registerItem(sigtestItem, Vars.item_sigTestName);
-		ModLogger.log("Item Loaded" + Vars.item_sigTestName);
+		ModLogger.log("Item Loaded: " + Vars.item_sigTestName);
 		
 		initRecipes();
 	}

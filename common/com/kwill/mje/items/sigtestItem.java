@@ -2,9 +2,9 @@ package com.kwill.mje.items;
 
 import net.minecraft.item.Item;
 
-public class sigtestItem extends Item {
+public class SigTestItem extends Item {
 
-	public sigtestItem(int par1) {
+	public SigTestItem(int par1) {
 		super(par1);
 		
 	}
